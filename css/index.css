@@ -160,6 +160,7 @@ body {
   width: 90%;
   background: #e2d0be;
   border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem grey;
   margin: 1rem auto 1rem auto;
 }
 .site-wrapper {
@@ -174,7 +175,6 @@ body {
   align-items: center;
   justify-content: center;
   width: 95%;
-  background-color: #d3c1c3;
   border-radius: 1rem;
   margin-bottom: auto;
 }
@@ -200,6 +200,7 @@ header {
   width: 90%;
   background: #e2d0be;
   border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem grey;
   margin: 1rem auto 1rem auto;
 }
 header h2 {
@@ -252,12 +253,25 @@ header .social-links a {
   font-size: 2rem;
   margin: auto 0.5rem auto 0.5rem;
 }
+header .social-links a .fa-github-alt:hover {
+  color: #333;
+}
+header .social-links a .fa-twitter:hover {
+  color: #1da1f2;
+}
+header .social-links a .fa-linkedin-in:hover {
+  color: #0077b5;
+}
+header .social-links a .fa-envelope:hover {
+  color: #dd4b39;
+}
 .section-one {
   justify-content: center;
   align-items: center;
   width: 90%;
   background: #e2d0be;
   border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem grey;
   margin: 1rem auto 1rem auto;
   display: flex;
   justify-content: space-evenly;
@@ -279,6 +293,7 @@ header .social-links a {
 }
 .section-one ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .section-one li {
@@ -287,7 +302,7 @@ header .social-links a {
   font-family: 'Biryani', sans-serif;
 }
 .section-one li i {
-  margin: 0 0.75rem 0 0.75rem;
+  margin: 0.75rem;
   font-size: 3rem;
 }
 .section-two {
@@ -296,6 +311,7 @@ header .social-links a {
   width: 90%;
   background: #e2d0be;
   border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem grey;
   margin: 1rem auto 1rem auto;
   display: flex;
 }
@@ -305,8 +321,10 @@ header .social-links a {
 }
 .section-two table th {
   background: #92cadd;
+  border-bottom: black solid 2px;
   text-align: left;
   padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   font-size: 1.75rem;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -317,12 +335,10 @@ header .social-links a {
   font-family: 'Biryani', sans-serif;
 }
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
+  margin-top: 2rem;
+  padding: 1rem 5rem 1rem 5rem;
   background-color: #d4dfc7;
+  border-radius: 1rem 1rem 0 0;
   text-align: center;
 }
 footer span {
