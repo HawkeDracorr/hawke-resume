@@ -1,0 +1,332 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background: #f7f9f9;
+}
+.heading {
+  font-size: 2.25rem;
+  font-family: 'Volkhov', serif;
+}
+.subheading {
+  font-size: 1.75rem;
+  font-family: 'Cormorant Garamond', serif;
+}
+.text {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: 'Biryani', sans-serif;
+}
+.text-strong {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Biryani', sans-serif;
+}
+.section-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background: #e2d0be;
+  border-radius: 0.5rem;
+  margin: 1rem auto 1rem auto;
+}
+.site-wrapper {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper-sequel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  background-color: #d3c1c3;
+  border-radius: 1rem;
+  margin-bottom: auto;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid black 2px;
+  margin: auto auto 2rem auto;
+  padding-bottom: 1.5rem;
+  padding-top: 3rem;
+  width: 90%;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: auto 2rem auto 2rem;
+  font-size: 2rem;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background: #e2d0be;
+  border-radius: 0.5rem;
+  margin: 1rem auto 1rem auto;
+}
+header h2 {
+  font-size: 2rem;
+  border-bottom: black solid 2px;
+  font-size: 2.25rem;
+  font-family: 'Volkhov', serif;
+}
+header h3 {
+  font-size: 1.75rem;
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 2rem;
+}
+header p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: 'Biryani', sans-serif;
+}
+header b {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Biryani', sans-serif;
+}
+header .header-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 47%;
+}
+header .intro {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 3rem;
+}
+header .headshot img {
+  border-radius: 50%;
+  padding: 1rem;
+}
+header .social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto 1rem auto;
+}
+header .social-links b {
+  margin-bottom: 0.5rem;
+}
+header .social-links a {
+  color: grey;
+  font-size: 2rem;
+  margin: auto 0.5rem auto 0.5rem;
+}
+.section-one {
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background: #e2d0be;
+  border-radius: 0.5rem;
+  margin: 1rem auto 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-one .section-one-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 47%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.section-one h3 {
+  font-size: 1.75rem;
+  font-family: 'Cormorant Garamond', serif;
+  border-bottom: black solid 2px;
+  margin-bottom: 1rem;
+}
+.section-one ul {
+  display: flex;
+  justify-content: center;
+}
+.section-one li {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: 'Biryani', sans-serif;
+}
+.section-one li i {
+  margin: 0 0.75rem 0 0.75rem;
+  font-size: 3rem;
+}
+.section-two {
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background: #e2d0be;
+  border-radius: 0.5rem;
+  margin: 1rem auto 1rem auto;
+  display: flex;
+}
+.section-two table {
+  width: 90%;
+  margin: 1rem;
+}
+.section-two table th {
+  background: #92cadd;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  font-size: 1.75rem;
+  font-family: 'Cormorant Garamond', serif;
+}
+.section-two table td {
+  padding: 0.25rem 0 0.25rem 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: 'Biryani', sans-serif;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #d4dfc7;
+  text-align: center;
+}
+footer span {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Biryani', sans-serif;
+}
